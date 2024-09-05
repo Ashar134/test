@@ -1,11 +1,17 @@
 #include<iostream>
+using namespace std;
 
-void greeting()
+string greeting()
 {
-    printf("Hello!");
+    return "Hello!";
 }
 
 int main()
 {
-    greeting();
+    
+    string message = greeting();
+
+    cout << message << endl;
+    
+    return 0;
 }
